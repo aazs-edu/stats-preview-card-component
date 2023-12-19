@@ -28,7 +28,7 @@ main .container{
     display: flex;  justify-content: space-between;   
     background-color: var(--cardBg-color);    border-radius: 7px; 
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container{
         width: 325px;   flex-direction: column;
     }
@@ -36,7 +36,7 @@ main .container{
 main .container .info-box {
     width: 570px;    padding: 70px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .info-box {
         width: 100%;    padding: 35px;
     }
@@ -45,7 +45,7 @@ main .container .info-box .mainH{
     font-family: var(--f1-font);    font-weight: 700;   font-size: 35px;
     color: var(--mainH-stats-color);   width: 380px;   margin-bottom: 30px;    
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .info-box .mainH{
         width: 260px;   text-align: center; font-size: 28px; margin-bottom: 20px;
     }
@@ -55,7 +55,7 @@ main .container .info-box .mainP{
     font-family: var(--f1-font);    line-height: 1.7;
     color: var(--mainP-color);   width: 350px;   margin-bottom: 75px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .info-box .mainP{
         width: 260px;   text-align: center; margin-bottom: 45px;
     }
@@ -64,13 +64,13 @@ main .container .info-box .stats{
     width: 350px;
     display: flex; justify-content: space-between;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .info-box .stats{
         flex-direction: column; width: 80px; margin: 0 auto;
         text-align: center;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .info-box .stats .stats-box:not(:last-child){
         margin-bottom: 35px;
     }
@@ -89,7 +89,7 @@ main .container .info-box .stats .stats-box p .statsTXT{
 main .container .img-box{
     width: 540px;   position: relative;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .img-box{
         order: -1;  width: 100%;
     }
@@ -97,7 +97,7 @@ main .container .img-box{
 main .container .img-box img{    
     height: 100%;   width: 100%;   border-radius: 0 7px 7px 0;    
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .img-box img{   
         border-radius: 7px 7px 0 0;  
     }
@@ -109,7 +109,7 @@ main .container .img-box::after{
 main .container .img-box #header-mobile{
     display: none;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1110px) {
     main .container .img-box #header-mobile{
         display: block;
     }
